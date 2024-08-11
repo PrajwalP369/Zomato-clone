@@ -1,0 +1,405 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+body{
+    background: white;
+}
+/* header */
+.header{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+	height: 450px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.appli{
+    margin-top: 35px;
+    margin-left: 150px;
+}
+.navbar{
+    display: flex;
+	height: 40px;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 80px;	
+	padding-right: 60px;
+	font-size: 17px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    transform: scale(1.02);
+}
+.navbar2{
+    display: flex;
+	gap: 22px;
+}
+.link2{
+    margin-top: 35px;
+    padding-right: 100px;
+}
+.link{
+    margin-top: 35px;
+   
+}
+.navbar2 .getapp{
+    display: flex;
+	height: 25px;
+	width: 25px;
+	border: 2px solid white;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+
+.heading{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	height: calc(400px - 40px);
+}
+
+.header_logo{
+	height: 60px;
+    width: 250px;
+}
+
+
+.heading2{
+	color: white;
+    word-spacing: 3px;
+    font-size: 43px;
+    font-weight: 380;
+}
+
+.locicon{
+	background: white;
+	border-radius: 10px;
+	width: 50%;
+    height: 50px;
+	padding: 7px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+#location_icon{
+	color: rgb(239,79,95);
+	margin-top: -4px;
+}
+
+#search_icon{
+	color: rgb(239,79,95);
+	margin-right: 3px;
+}
+
+.location, .search{
+	border: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+.location{
+	width: 35%;
+	border-right: 2px white;
+	color: gray;
+	font-size: 12.9px;
+}
+
+.search {
+	width: 65%;
+    color: white;
+}
+.card img{
+    height: 180px;
+    width: 550px;
+}
+.card{
+    width: 550px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.popular{
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.card1{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+    margin-top: 50px;
+}
+.card2{
+    border: 1px solid rgb(183, 181, 181);
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* getapp section */
+
+.getapp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(255,251,247);
+	width: 100%;
+    padding-bottom: 100px;
+	margin: 3px auto;
+}
+
+.getapp1{
+    padding-left: 130px;
+    padding-top: 100px;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: rgb(255,251,247);
+}
+.phone{
+	flex: 1.5;
+}
+
+.phone img{
+    margin-left: 70px;
+	width: 70%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.zomapp{
+	flex: 3;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-left: 10px;
+}
+
+.zomapp h1{
+	font-size: 50px;
+}
+
+.zomapp p{
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+}
+.zomapp .button{
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.zomapp .button div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.button div input{
+	height: 15px;
+	width: 15px;
+	color: red;  
+}
+
+.applink{
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.applink button, .applink input{
+	padding: 10px 12px;
+}
+
+.applink input{	
+    width: 330px;
+	border: 1.5px solid gray;
+	border-radius: 5px;
+	outline: none;
+}
+
+.applink button{
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background: rgb(239,79,95); 
+	cursor: pointer;
+}
+
+.applink button:hover{
+	background: red;
+}
+
+.download{
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+}
+
+.download h5{
+	font-weight: 450;
+	font-size: 15px;
+	color: gray;
+}
+
+.download div{
+	display: flex;
+	gap: 1px;
+}
+.download div img{
+	cursor: pointer;
+	width: 20%;
+}
+.button label{
+    font-size: 16px;
+}
+.support{
+    margin-top: 30px;
+    width: 85%;
+    padding-left: 200px;
+}
+.support1{
+    border: 1px solid rgb(183, 181, 181);
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.support2{
+    border: 1px solid rgb(183, 181, 181);
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.support3{
+    border: 1px solid rgb(183, 181, 181);
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.support4{
+    border: 1px solid rgb(183, 181, 181);
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+/* footer */
+.footer{
+	width: 75%;
+	margin: 4rem auto;
+    background-color: white;
+}
+
+.footer1{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	width: 70;
+}
+
+.footer1 img{
+	width: 130px;
+}
+
+.info{
+	padding: 2px;
+	border: 1px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.aboutzom{
+	display: grid;
+	grid-template-columns : repeat(5, 1fr);
+	margin: auto;
+	gap: 1rem;
+	padding: 3rem 0;
+}
+
+.aboutzom1{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.aboutzom1 h5{
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.footlist a{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	text-transform: none;
+	color: gray;
+	gap: 5px;
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+
+.footlist a:hover{
+	color: black;
+}
+.store{
+	margin: 18px 30px;	
+}
+
+.store img{
+	width: 80%;
+    margin-left: -28px;
+	cursor: pointer;
+}
+
+.socialmedia button{
+	background: black;
+	border: none;
+	border-radius: 50%;
+	height: 22px;
+	width: 22px;
+	cursor: pointer;
+	color: white;
+}
+
+.socialmedia button i{
+	display: flex;
+	font-size: 13px;
+	justify-content: center;
+	align-items: center;
+}
+
+.disclaimer{
+	font-size: 13px;
+    color: gray;
+    margin-top: auto;
+	border-top: 1px solid #C0C0C0;
+	padding-top: 20px;
+}
+.flag{
+    height: 25px;
+    width: 1px;
+}
+#playstore{
+    padding-top: 5px;
+}
